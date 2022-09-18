@@ -19,11 +19,7 @@ Unfortunately, there is no UI or a CLI. The project structure is very similar to
 
 The zkApp state consists of a `Field` representing an encrypted age value originating from a trusted authority (or an emulation thereof), and a `Bool` stating if the age verification statement - "The user is older than 18" - is proven or not.
 
-## How to build
-
-```sh
-npm run build
-```
+The zkApp can be run locally, just like the sudoku example.
 
 Without the passport recognition, the output of running locally will look like this:
 
@@ -33,6 +29,11 @@ With the passport recognition, the output will be:
 
 ![authorityPassport](https://user-images.githubusercontent.com/44878998/190929361-bf6bab41-c1b9-4e5b-b441-7947aa677ed4.png)
 
+## How to build
+
+```sh
+npm run build
+```
 
 ## How to run tests
 
