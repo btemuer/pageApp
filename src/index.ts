@@ -1,3 +1,3 @@
-import { SudokuZkApp } from './sudoku.js';
+import { PageApp } from './pageapp.js';
 
-export { SudokuZkApp };
+export { PageApp };
