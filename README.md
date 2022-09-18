@@ -25,6 +25,13 @@ The zkApp state consists of a `Field` representing an encrypted age value origin
 npm run build
 ```
 
+Without the passport recognition, the output of running locally will look like this:
+![authority](https://user-images.githubusercontent.com/44878998/190929336-f74e8550-75c2-44bc-b7c6-7795fc8f4587.png)
+
+With the passport recognition, the output will be:
+![authorityPassport](https://user-images.githubusercontent.com/44878998/190929361-bf6bab41-c1b9-4e5b-b441-7947aa677ed4.png)
+
+
 ## How to run tests
 
 (Please take care of the import statement on line 3 in `page-lib.ts` before running the tests. Just delete the `.js` at the end. I do not know where this error comes from.)
