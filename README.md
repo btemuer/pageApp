@@ -1,4 +1,4 @@
-Kindly follow Below Steps
+**Kindly follow Below Steps**
 
 Step 1: Download zkApp file
 
